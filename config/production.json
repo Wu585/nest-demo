@@ -1,0 +1,6 @@
+{
+  "database": {
+    "dbname": "mysql-prod",
+    "password": 123456
+  }
+}

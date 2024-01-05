@@ -5,6 +5,9 @@ import { UserModule } from "./user/user.module";
 import { ConfigModule } from "@nestjs/config";
 import * as dotenv from "dotenv";
 import Configuration from "./configuration";
+import * as config from "config"
+
+console.log(config.get("database"));
 
 @Module({
   imports: [
