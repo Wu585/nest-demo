@@ -1,0 +1,6 @@
+dbx:
+  mysql1:
+    name: mysql-dev1
+
+  mysql2:
+    name: mysql-dev2
